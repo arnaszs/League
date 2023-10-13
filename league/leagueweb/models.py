@@ -6,7 +6,7 @@ from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
 from PIL import Image
 
-
+## Customer
 class Customer(models.Model):
     user = models.OneToOneField(
         User,
